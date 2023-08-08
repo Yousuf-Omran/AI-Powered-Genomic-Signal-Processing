@@ -10,6 +10,8 @@ proposing effective automated approaches in machine/deep learning based on genom
 <<<<<<< HEAD
 \* the previous 5 steps are in common with ML and DL studies.*\
 =======
+//* the previous 5 steps are in common with ML and DL studies.*\ //
+>>>>>>> d46406f798a42ab23522ace375f7054ef8f50633
  - ML-study:
     - Apply 'STFT' signal processing technique to enhance the data quality:
     - Apply the 't-test' statistical feature selection method to obtain the most significant features in data.
