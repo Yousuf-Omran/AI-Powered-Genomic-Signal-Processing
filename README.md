@@ -7,11 +7,7 @@ proposing effective automated approaches in machine/deep learning based on genom
  - Perform an Equalization in the lengths of the samples by cutting samples according to the smallest one.
  - Split the data into 85% training and validation, and 15% testing data.
  - Apply the 'EIIP' Numerical representation to the DNA bases.
-<<<<<<< HEAD
 \* the previous 5 steps are in common with ML and DL studies.*\
-=======
-//* the previous 5 steps are in common with ML and DL studies.*\ //
->>>>>>> d46406f798a42ab23522ace375f7054ef8f50633
  - ML-study:
     - Apply 'STFT' signal processing technique to enhance the data quality:
     - Apply the 't-test' statistical feature selection method to obtain the most significant features in data.
