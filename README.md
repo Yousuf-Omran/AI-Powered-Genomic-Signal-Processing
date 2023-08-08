@@ -1,12 +1,12 @@
 # AI-Powered Genomic Signal Processing
 ## Project target:
-proposing effective automated approaches in machine/deep learning based on genomic signal processing (GSP) techniques to detect COVID-19 -used as a case study-, among other human coronavirus (H-CoV) diseases (binary classification).
+proposing effective automated approaches in machine/deep learning based on genomic signal processing (GSP) techniques to detect COVID-19 -used as a case study-, among other human coronavirus (H-CoV) diseases  by using a binary classification.
 ## Project steps:
   
- - Call the 'human coronavirus' dataset from the (.fasta) file.
- - Perform a filtration in data by removing ambiguous nucleotides referred to as 'N'.
- - Perform an Equalization in the lengths of the samples by cutting samples according to the smallest one.
- - Split the data into 85% training and validation, and 15% testing data.
+ - Call the 'human coronavirus' dataset from the (.fasta) files (1156 samples).
+ - Filter the data by removing ambiguous nucleotides referred to as 'N'.
+ - Match the lengths of the samples in size by cutting them according to the smallest length (26068 bases).
+ - Split the data into 85% training and validation data, and 15% testing data.
  - Apply the 'EIIP' Numerical representation to the DNA bases.
 ##### The 5 previous steps are in common with ML and DL studies.
  - ML-study:
@@ -15,7 +15,7 @@ proposing effective automated approaches in machine/deep learning based on genom
     - Use the models 'KNN' (with k=3,5,7), 'LSVM', 'GSVM', 'DT', and 'Random Forest' (with n=11,51,101), with data to fit and then predict the labels.
     - Evaluate the performance of processing steps by statistical metrics 'accuracy', 'precision', 'recall', 'specificity', and 'F1-score'.
  - DL-studies (1D-CNN and 2D-CNN):
-    - Segment each sample with a window length of 256 to enlarge the data samples to be in the shape of (119068 x 256) and apply feature extraction techniques efficiently. 
+    - Segment each sample with a window length of 256 to enlarge the data samples to be in the shape of (119068 x 256) and to apply feature extraction techniques efficiently. 
     - Apply the 'FFT' method in 1D-CNN, and the 'CWT' method to convert the signal into an image and deal with it in 2D-CNN.
     - Build the model architecture in a 1D-CNN study, and VGG-16-based and EfficientNet-b0-based models in a 2D-CNN study.
     - Use a grid search method for hyperparameters tuning and selecting the optimal hyperparameters for training.
