@@ -12,8 +12,8 @@ proposing effective automated approaches in machine/deep learning based on genom
     - Apply 'STFT' signal processing technique to enhance the data quality:
     - Apply the 't-test' statistical feature selection method to obtain the most significant features in data.
     - Use the models 'KNN' (with k=3,5,7), 'LSVM', 'GSVM', 'DT', and 'Random Forest' (with n=11,51,101), with data to fit and then predict the labels.
-    - Evaluate the processing steps performance by statistical metrics 'accuracy', 'precision', 'recall', 'specificity', and 'F1-score'.
- - DL-study:
+    - Evaluate the performance of processing steps by statistical metrics 'accuracy', 'precision', 'recall', 'specificity', and 'F1-score'.
+ - DL-studies (1D-CNN and 2D-CNN):
     - Segment each sample with a window length of 256 to enlarge the data samples to be in the shape of (119068 x 256) and apply feature extraction techniques efficiently. 
     - Apply the 'FFT' method in 1D-CNN, and the 'CWT' method to convert the signal into an image and deal with it in 2D-CNN.
     - Build the model architecture in a 1D-CNN study, and VGG-16-based and EfficientNet-b0-based models in a 2D-CNN study.
