@@ -23,10 +23,3 @@ proposing effective automated approaches in machine/deep learning based on genom
 The results showed that the 'KNN' and 'Random Forest' algorithms, trained on STFT data, achieved the best accuracy of 99.57%. Additionally, the 1D-CNN and 2D-CNN models trained on numeric and FFT data achieved 100% accuracy but 1D-CNN takes the vantage with a less processing time computation of 8.4 min.
 ## Conclusion:
 These studies demonstrate that such approaches can accurately classify COVID-19 and other coronaviruses, highlighting their robustness and reliability in handling such data. 
-
-      
-
-     
-     
-     
-    
