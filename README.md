@@ -2,7 +2,6 @@
 ## Project target:
 proposing effective automated approaches in machine/deep learning based on genomic signal processing (GSP) techniques to detect COVID-19 -used as a case study-, among other human coronavirus (H-CoV) diseases  by using a binary classification.
 ## Project steps:
-  
  - Call the 'human coronavirus' dataset from the (.fasta) files (1156 samples).
  - Filter the data by removing ambiguous nucleotides referred to as 'N'.
  - Match the lengths of the samples in size by cutting them according to the smallest length (26068 bases).
