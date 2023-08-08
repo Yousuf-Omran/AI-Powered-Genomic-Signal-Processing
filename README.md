@@ -18,7 +18,14 @@ proposing effective automated approaches in machine/deep learning based on genom
     - Apply the 'FFT' method in 1D-CNN, and the 'CWT' method to convert the signal into an image and deal with it in 2D-CNN.
     - Build the model architecture in a 1D-CNN study, and VGG-16-based and EfficientNet-b0-based models in a 2D-CNN study.
     - Use a grid search method for hyperparameters tuning and selecting the optimal hyperparameters for training.
-    - Fit, predict, plot the ROC curve, and evaluate the performance of all models constructed. 
+    - Fit, predict, plot the ROC curve, and evaluate the performance of all models constructed.
+## Results:
+The results showed that the 'KNN' and 'Random Forest' algorithms, trained on STFT data, achieved the best accuracy of 99.57%. Additionally, the 1D-CNN and 2D-CNN models trained on numeric and FFT data achieved 100% accuracy but 1D-CNN takes the vantage with a less processing time computation of 8.4 min.
+## Conclusion:
+These studies demonstrate that such approaches can accurately classify COVID-19 and other coronaviruses, highlighting their robustness and reliability in handling such data. 
+
+      
+
      
      
      
