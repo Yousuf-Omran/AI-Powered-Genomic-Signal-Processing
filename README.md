@@ -2,8 +2,8 @@
 proposing effective automated approaches in machine/deep learning based on genomic signal processing (GSP) techniques to detect COVID-19 -used as a case study-, among other human coronavirus (H-CoV) diseases (binary classification).
 ## Steps of the project:
   
-1.<ol> Call the 'human coronavirus' dataset from the (.fasta) file.
-2.  <ol>Perform a filtration in data by removing ambiguous nucleotides referred to as 'N'.
+1. Call the 'human coronavirus' dataset from the (.fasta) file.
+2. Perform a filtration in data by removing ambiguous nucleotides referred to as 'N'.
   Perform an Equalization in the lengths of the samples by cutting samples according to the smallest one.
   Split the data into 85% training and validation, and 15% testing data.
   Apply the 'EIIP' Numerical representation to the DNA bases.
