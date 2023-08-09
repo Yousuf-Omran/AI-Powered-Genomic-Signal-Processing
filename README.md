@@ -1,5 +1,5 @@
 # AI-Powered Genomic Signal Processing
-## Project target:
+## Project aim:
 proposing effective automated approaches in machine/deep learning based on genomic signal processing (GSP) techniques to detect COVID-19 -used as a case study-, among other human coronavirus (H-CoV) diseases  by using a binary classification.
 ## Project steps:
  - Call the 'human coronavirus' dataset from the (.fasta) files (1156 samples).
